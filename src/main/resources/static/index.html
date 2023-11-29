@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRIMES by Maciej Moryń</title>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="col_100">
+<div class="row">
+    <div class="col_30 min_width_large">Please enter upper prime numbers boundary (exclusive):</div>
+    <div class="col_10 min_width_small"><input id="boundary_input" type="text" min="0" value="10" onchange="validateBoundary()" class="center_content"></div>
+    <div class="col_10 min_width_small"><button onclick="doRequest()">SEARCH</button></div>
+</div>
+<div class="row" id="primes_label">Prime numbers lesser than - are:</div>
+<div class="col_100" id="primes_column"></div>
+
+</body>
+</html>
